@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(107, 154, 138);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.card{
+  background-color: rgb(205, 186, 186);
+  color: black;
+  border-radius: 10px;
+  width: 30%;
+  height: 420px;
+  padding: 15px;
+  box-shadow: 5px 0 10px black;
+  text-align: center;
+}
+
+.card form input{
+  width: 70%;
+  font-size: 20px;
+  padding: 15px 5px;
+  margin-top: 18px;
+}
+
+.card form button{
+  width: 70%;
+  padding: 20px 10px;
+  font-size: 20px;
+  color: black;
+  margin-top: 8px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(95, 95, 230);
+}
+
+.error{
+  color: red;
+  font-size: 22px;
+}
